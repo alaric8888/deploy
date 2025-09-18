@@ -36,5 +36,4 @@ jobs:
           port: 22
           script: |
              git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/alaric8888/customer-service.git
-
              
