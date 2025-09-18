@@ -25,6 +25,7 @@ jobs:
           key: ${{ secrets.SERVER_KEY }}
           port: 22
           source: "repo.tar.gz"
+          target: "~/"
 
       - name: 远程解压并启动容器
         uses: appleboy/ssh-action@v1.2.0
