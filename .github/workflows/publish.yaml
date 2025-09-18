@@ -35,4 +35,6 @@ jobs:
           key: ${{ secrets.SERVER_KEY }}
           port: 22
           script: |
-            tar -xzf repo.tar.gz -C .
+             git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/alaric8888/customer-service.git
+
+             
